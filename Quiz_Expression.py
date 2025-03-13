@@ -10,7 +10,7 @@ def Menu():
 	return r
 
 def Statistics(w_ans,time,num_err):
-	print("\nTotal Time\t\t",round(time, 2),"seconds\nCorrect Answers:\t", N-num_err)
+	print("\nTotal Time\t\t",round(time, 2),"seconds\nCorrect Answers:\t", str(N-num_err) + "/"+ str(N))
 	if num_err>0:
 		print("\nAnswers reviewed:\n")
 		for i in w_ans:
