@@ -1,12 +1,13 @@
 import random as rand
 import time	
+from sys import exit
 
 N = 10
 
 def Menu():
 	r = input("If you want to continue the test press every button, if you want to QUIT press \'q\':\t")
 	if(r.lower() == "q"):
-		quit()
+		exit()
 	return r
 
 def Statistics(w_ans,time,num_err):
