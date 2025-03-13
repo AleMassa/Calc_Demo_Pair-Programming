@@ -19,9 +19,13 @@ This is a command-line math quiz application that generates 10 randomized arithm
 ### How to use:
 Generates a valid expression using Channel_Operation_Gen().
 Enter numerical answers or press ENTER to skip (marked wrong).
+
 Compares user input against eval()-computed result with tolerance.
+
 Tracks errors and compiles post-quiz statistics via Statistics().
+
 See time elapsed, score, and incorrect answers with solution.
+
 Press any key to retry or q to exit.
 
 
